@@ -1,0 +1,12 @@
+.Container {
+	width: 100%;
+	}
+
+.Container h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.Products a  {
+	text-decoration: none;
+	color: black;
+}

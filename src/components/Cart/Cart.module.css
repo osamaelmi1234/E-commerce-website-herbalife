@@ -1,0 +1,74 @@
+
+.CartContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+  
+}
+.Cart {
+	   box-shadow: 0 0 20px  0 grey;
+	
+	   width: 70%;
+	   margin: 0 auto;
+}
+
+.CartContentContainer {
+	max-width: 1000px;
+	
+	  
+	  display: flex;
+	   justify-content: space-between;
+	    align-items: center;
+	 
+	 margin-right: 20px;
+	
+}
+.CartContentContainer  h5 {
+	width: 190px;
+}
+.BtnQty {
+	display: flex;
+
+}
+.BtnQty button {
+	
+	font-size: 20px;
+	background-color: transparent;
+	border: none;
+	margin-left:25px;
+	margin-right: 25px;
+	padding-top:4px;
+}
+.BtnQty button  i {
+	cursor: pointer;
+}
+.BtnQty p {
+	font-size: 20px;
+}
+
+.Image {
+	
+	width: 140px;
+	height: 140px;
+	position: relative;
+
+}
+
+.Checkout {
+	width: 70%;
+	
+	 box-shadow:0 0 20px 0 grey;
+	 text-align: center;
+	position: relative;
+	 margin: 0 auto;
+	 margin-top: 20px;
+	 }
+
+	 @media(max-width: 766px) {
+	 	.CartContentContainer {
+	 		flex-direction: column;
+	 		width: auto;
+	 		margin-bottom: 20px;
+	 		margin-right: 0px;
+	 	}
+	 }

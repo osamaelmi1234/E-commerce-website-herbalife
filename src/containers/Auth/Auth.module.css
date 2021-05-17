@@ -1,0 +1,34 @@
+
+.Auth {
+	box-shadow:0 0 20px 0 rgb(0,0,0,0.1);
+  width: 80%;
+  margin: 0 auto;
+   display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.Auth form {
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 50px;
+  
+}
+
+.Auth input {
+   width: 100%;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.Auth button {
+	font-size: 24px;
+	border: none;
+	background-color: white;
+	color: green;
+	margin: 0 auto;
+	border-color: transparent;
+	outline: none;
+}
+

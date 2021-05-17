@@ -1,0 +1,27 @@
+.NavigationItems {
+	height: 90px;
+	background-color: #77be20;
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	align-items: center;
+}
+
+.NavigationItems li {
+	padding: 0px 40px;
+	list-style-type: none;
+	cursor: pointer;
+
+}
+
+
+.NavigationItems a {
+    color: white;
+    text-decoration: none;
+   
+}
+@media(max-width: 766px) {
+	.NavigationItems {
+		justify-content: center;
+	}
+}
